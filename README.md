@@ -36,6 +36,21 @@ http://localhost:3000/api/v2/seed
 https://pokeapixd.herokuapp.com/api/v2/
 ```
 
+# Heroku
+Hacer deploy sin cambios
+```
+git commit --allow-empy -m "Deploy sin cambios"
+git push heroku master
+```
+
+# Producción
+1. Clonar ```.env.template``` y utilizar ```.env.prod```
+2. Definir variables de entorno
+3. Crear imagen
+ ```
+ docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+ ```
+
 # Stack
   * MongoDB
   * NestJS
