@@ -38,3 +38,5 @@ lerna-debug.log*
 /mongo
 
 .env
+
+yarn.lock

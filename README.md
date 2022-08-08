@@ -31,6 +31,11 @@ yarn start:dev
 http://localhost:3000/api/v2/seed
 ```
 
+# Api Preview
+```
+https://pokeapixd.herokuapp.com/api/v2/
+```
+
 # Stack
   * MongoDB
   * NestJS
