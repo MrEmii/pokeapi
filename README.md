@@ -17,6 +17,19 @@
   ```
   docker-compose up -d
   ```
+5. Clonar ```.env.template``` y utilizar ```.env```
+
+6. Definir variables de entorno
+
+7. Ejecutar aplicación con:
+```
+yarn start:dev
+```
+
+# Carga base de datos
+```
+http://localhost:3000/api/v2/seed
+```
 
 # Stack
   * MongoDB
